@@ -1,0 +1,4 @@
+export LEAP_HOME="/Users/Andrew/Dropbox/Northeastern/Projects/Leap"
+
+install_name_tool -change /opt/boxen/homebrew/Cellar/python/2.7.3-boxen2/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/Current/Python $LEAP_HOME/LeapSDK/lib/LeapPython.so
+
